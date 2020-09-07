@@ -1,0 +1,88 @@
+@charset "utf-8"; /*この指定は、外部スタイルシートファイル内でのみ使用 文字化けを防ぐため*/
+
+body{
+    background-color: #969696;
+}
+
+h1{
+    /* background: -webkit-linear-gradient(left, #7362f5, #ff7881); */
+    /* background: -o-linear-gradient(left, #453a94, #f43b47); */
+    /* 各ブラウザに対応：背景をグラデーションにする（開始位置、開始色、終了色） */
+    /* background: linear-gradient(to right, #453a94, #f43b47); */
+    /* 背景グラデーションにする（to 方向、開始色、終了色） */
+    color: rgb(0, 0, 0);
+    /* 文字の色 */
+    font-size: 25px;
+    /* 文字サイズ */
+    font-weight: bold;
+    /* 文字の太さ */
+    margin:auto;
+    /* 余白上下は50px 左右は均等 */
+    padding: 15px;
+    /* 中の余白を上下左右余白を15pxに */
+    text-align: center;
+    /* 下でした幅の中で中央寄せする */
+    width: 300px;
+    /* 幅を300px */
+}
+
+.box1
+{
+    background-color: #e6a3a3;
+    border-radius: 20px;
+    /* 半径20pxの正円の円弧をベースにした角丸を実装 */
+    margin: 0 auto 30px;
+    /* 外の余白を上に0左右均等に下30pxにする */
+    padding:  20px;
+    /* 中の余白を上下左右余白を20px */
+    text-align: center;
+    /* 幅の中で中央寄せする */
+    width: auto;
+    /* 幅を200pxに */
+}
+
+.circle{
+    background-color: #e6a3a3;
+    /* 【背景の色を変える】 */
+    border-radius: 50%;
+    /* 【全ての角を丸くして円にする】 */
+    height: 200px;
+    /* 【高さを150pxにする】 */
+    line-height: 200px;
+    /* 【高さと行の高さを合わせる】 */
+    margin: 0 auto;
+    /* 【外の余白を上下50pxに、左右は均等にする】 */
+    text-align: center;
+    /* 【幅の中で中央寄せする】 */
+    width: 200px;
+    /* 【幅を200pxにする】 */
+}
+
+.box3{
+    background-color: #e6a3a3;
+    /* 【背景の色を変える】 */
+    border: dashed 5px white;
+    /* 【枠線をつける(種類 太さ 色)】 */
+    border-radius: 50%;
+    /* 【 全ての角を丸くして円にする】 */
+    height: 200px;
+    /* 【高さを170pxにする】 */
+    line-height: 200px;
+    /* 【高さと行の高さを合わせる】 */
+    box-shadow: 0px 0px 5px 5px #020101;
+    /* 【(左右の向きpx 上下の向き ぼかし 広がり 色)】 */
+    margin: 30px auto;
+    /* 【外の余白を上下30pxに、左右は均等にする】 */
+    text-align: center;
+    /* 【幅の中で中央寄せする】 */
+    width: 200px;
+    /* 【幅を170pxにする】 */
+    /* 【 ※borderで5px、box-shadowで上下左右10pxずつ膨らんだのでwidth,heightも減らしてbox2と同じサイズにしてます 】 */
+}
+.centered{
+    text-align: center;
+}
+.background_color_white{
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px #2b2a2a;
+}
